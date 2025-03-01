@@ -17,4 +17,5 @@ jobs:
         run: |
           # Ping the deployed Supabase function endpoint.
           # Replace the URL with your actual endpoint URL.
-          curl -I https://supabase.com/dashboard/project/glxyvjufrkqyynyxlpdo/functions/ping
+          curl -I https://glxyvjufrkqyynyxlpdo.supabase.co/functions/v1/ping
+
